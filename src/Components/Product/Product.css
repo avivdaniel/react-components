@@ -1,0 +1,11 @@
+.Product {
+    width: 50%;
+    border: 5px solid lightseagreen;
+    text-align: center;
+}
+
+.Product div {
+    border: 2px solid lightslategray;
+    padding: 20px;
+    margin: 20px;
+}
