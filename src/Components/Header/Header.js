@@ -7,7 +7,7 @@ export class Header extends React.Component {
     }
     render() {
         return (
-            <header className="Header" >
+            <header className="Header row">
                 <nav>
                     <ul className="nav navbar-light bg-light">
                         <li className="nav-item">

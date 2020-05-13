@@ -6,11 +6,9 @@ import { Content } from './../Content/Content'
 export class Main extends React.Component {
     render() {
         return (
-            <section className="Main">
-                <main className="Container row">
-                    < Sidebar />
-                    < Content />
-                </main>
+            <section className="Main row">
+                < Sidebar />
+                < Content />
             </section>
         )
     }

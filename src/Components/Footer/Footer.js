@@ -5,9 +5,9 @@ import './Footer.css';
 export class Footer extends React.Component {
     render() {
         return (
-            <div className="Footer">
+            <footer className="Footer row bg-secondary" >
                 Footer
-            </div>
+            </footer>
         )
     }
 }
