@@ -1,9 +1,0 @@
-.Main {
-    border: 2px solid lightgreen;
-    margin: 10px;
-}
-
-.Main div {
-    display: flex;
-    justify-content: space-around;
-}

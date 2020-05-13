@@ -8,11 +8,9 @@ import { Sidebar } from './Components/Sidebar/Sidebar'
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container-fluid">
         <Header />
-        <Main>
-          <Sidebar />
-        </Main>
+        <Main />
         <Footer />
       </div>
     )

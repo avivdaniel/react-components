@@ -6,13 +6,12 @@ import { Content } from './../Content/Content'
 export class Main extends React.Component {
     render() {
         return (
-            <div className="Main">
-                Main
-                <div>
+            <section className="Main">
+                <main className="Container row">
                     < Sidebar />
                     < Content />
-                </div>
-            </div>
+                </main>
+            </section>
         )
     }
 }
