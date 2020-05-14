@@ -1,16 +1,25 @@
 .Collapsible {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     width: 300px;
-    border: 1px solid #dddddd;
-    margin-bottom: 15px;
+    margin: 15px;
     text-align: left;
 }
 
 .Collapsible-header {
+    color: white;
     background-color: lightslategrey;
     font-size: 22px;
     padding: 15px;
+    /* flex: 1 1 10%; */
 }
 
 .Collapsible-content {
-    padding: 15px;
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    min-height: 250px;
+    /* flex: 1 1 90%; */
 }

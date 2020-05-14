@@ -16,8 +16,8 @@ class Collapsible extends Component {
     render() {
         return (
             <section className="Collapsible">
-                <header className="Collapsible-header" onClick={this.handleClick.bind(this)}>{this.props.header}</header>
-                {this.state.isOpen ? <div className="Collapsible-content">{this.props.children}</div> : null}
+                <header className="Collapsible-header shadow" onClick={this.handleClick.bind(this)}>{this.props.header}</header>
+                {this.state.isOpen ? <div className="Collapsible-content shadow">{this.props.children}</div> : null}
             </section>
         );
     }
