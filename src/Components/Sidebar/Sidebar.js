@@ -8,9 +8,17 @@ export class Sidebar extends React.Component {
         return (
             <div className="Sidebar col-12 col-md-2 d-none d-md-block">
                 <Menu >
-                    <MenuItem >Item 1</MenuItem>
-                    <MenuItem >Item 2</MenuItem>
-                    <MenuItem >Item 3</MenuItem>
+                    <MenuItem >
+                        <a href="#" className="nav-link">link 1</a>
+                    </MenuItem>
+
+                    <MenuItem >
+                        <a href="#" className="nav-link">link 2</a>
+                    </MenuItem>
+
+                    <MenuItem >
+                        <a href="#" className="nav-link">link 3</a>
+                    </MenuItem>
                 </Menu >
             </div>
         )

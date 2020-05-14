@@ -1,0 +1,22 @@
+.MenuItem {
+    margin: 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.MenuItem a{
+    color: white;
+}
+
+.MenuItem a::after{
+   content: '';
+    display: block;
+    border-bottom: solid 3px #E1C0A9;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.MenuItem a:hover::after{
+     transform: scaleX(1);
+ }
+

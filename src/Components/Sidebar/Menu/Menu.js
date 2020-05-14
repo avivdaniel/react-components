@@ -5,7 +5,7 @@ class Menu extends Component {
     render() {
         return (
             <nav className="Menu">
-                <ul>
+                <ul className="nav flex-column">
                     {this.props.children}
                 </ul>
             </nav>

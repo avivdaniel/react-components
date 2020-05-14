@@ -1,0 +1,19 @@
+.NavbarItem {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+}
+
+.NavbarItem .nav-link {
+color: white;
+}
+
+.NavbarItem .nav-link:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #E1C0A9;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.NavbarItem .nav-link:hover:after { transform: scaleX(1); }

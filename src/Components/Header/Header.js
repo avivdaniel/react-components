@@ -1,5 +1,7 @@
 import React from 'react';
 import './Header.css';
+import Navbar from './Navbar/Navbar'
+import NavbarItem from './Navbar/NavbarItem/NavbarItem'
 
 export class Header extends React.Component {
     handleClick() {
@@ -8,22 +10,22 @@ export class Header extends React.Component {
     render() {
         return (
             <header className="Header row">
-                <nav>
-                    <ul className="nav">
-                        <li className="nav-item">
-                            <a className="nav-link active" href="#">Active</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </nav>
+                < Navbar>
+
+                    <NavbarItem>
+                        <a href="#" className="nav-link">Link 1</a>
+                    </NavbarItem>
+
+                    <NavbarItem>
+                        <a href="#" className="nav-link">Link 2</a>
+                    </NavbarItem>
+
+                    <NavbarItem>
+                        <a href="#" className="nav-link">Link 3</a>
+                    </NavbarItem>
+
+                </Navbar>
+
             </header >
         )
     }

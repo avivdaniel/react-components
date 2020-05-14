@@ -1,0 +1,10 @@
+.Menu {
+    height: 100%;
+    width: 100%;
+}
+.Menu .nav{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
