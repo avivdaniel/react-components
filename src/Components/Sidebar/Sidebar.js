@@ -6,7 +6,7 @@ import MenuItem from './Menu/MenuItem/MenuItem';
 export class Sidebar extends React.Component {
     render() {
         return (
-            <div className="Sidebar col-4">
+            <div className="Sidebar col-12 col-md-2 d-none d-md-block">
                 <Menu >
                     <MenuItem >Item 1</MenuItem>
                     <MenuItem >Item 2</MenuItem>

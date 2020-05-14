@@ -5,8 +5,7 @@ import Collapsible from './Collapsible/Collapsible'
 export class Content extends React.Component {
     render() {
         return (
-            <div className="Content col-8">
-                Content
+            <div className="Content col-12 col-md-10 d-md-flex flex-md-cloumn">
                 < Collapsible header="This is the header" >
                     This is the content < br />
                     This is the content
