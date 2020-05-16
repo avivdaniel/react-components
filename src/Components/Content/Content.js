@@ -1,6 +1,7 @@
 import React from 'react';
 import './Content.css';
 import Collapsible from './Collapsible/Collapsible'
+import RandomColorSquare from './RandomColorSquare/RandomColorSquare';
 
 export class Content extends React.Component {
     render() {
@@ -22,7 +23,7 @@ export class Content extends React.Component {
                 </Collapsible>
 
                 </div>
-
+                < RandomColorSquare />
             </div>
         )
     }
